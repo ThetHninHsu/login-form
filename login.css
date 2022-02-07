@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: skyblue;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.popsci.com/uploads/2019/12/26/XQRMY2UEXZE4VACIXD7SUC2GBU-1536x863.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    width: 450px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 80px auto;
+    padding: 30px;
+    backdrop-filter: blur(3px);
+    box-shadow: inset 0 0 5px 2px skyblue;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+input {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px 2px skyblue;
+    color: whitesmoke;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #C6DDFD;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    font-size: 22px;
+    color: skyblue;
+    cursor: pointer;
+    backdrop-filter: blur(3px);
+}
